@@ -8,6 +8,12 @@ using namespace std;
 //make a map of city names and path distances
 map<string, map<string, int>> paths;
 
+int searchShortest(string city1, string city2) {
+	
+	
+	
+}
+
 int main(int argv, char *argc[]) {
 	string fileName; //string to hold an entered file name
 	cout << "Please enter a data file: " //prompt user to enter file name
@@ -39,10 +45,11 @@ int main(int argv, char *argc[]) {
 	cin >> city1 >> city2;
 	*/
 	
+	//does she want to cities in the path listed or just the smallest number?
+	int shortest;
+	shortest = searchShortest(city1, city2); //use the searchShortest() function to find the shortest path
 	
-	
-	
-	
+	cout << "The shorstest path from " << city1 << " to " << city2 << " is " << shortest << "." << endl; //print out the answer
 	
 	return 0;
 }
