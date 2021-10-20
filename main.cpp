@@ -26,11 +26,18 @@ int main(int argv, char *argc[]) {
 	}
 	inFile.close(); //close the file
 	
-	//prompt the user to enter a city to find the distance between it and St Louis
-	cout << "Please enter a city to find the fastest path to St. Louis: ";
+	//prompt the user to enter a city to find the shortest distance between it and St Louis
+	cout << "Please enter a city to find the shortest path to St. Louis: ";
 	string city;
 	cin >> city;
 	
+	/* Bonus points
+	//prompt the user to enter 2 cities to find the shortest distance between them
+	cout << "Please enter 2 cities to find the shortest path between them: ";
+	string city1;
+	string city2;
+	cin >> city1 >> city2;
+	*/
 	
 	
 	
