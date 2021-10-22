@@ -1,15 +1,17 @@
 StJoseph KansasCity 56
 KansasCity Joplin 156
-Kansas City Columbia 124
+KansasCity Columbia 124
 Columbia Moberly 36
 Columbia JeffersonCity 32
 Columbia StCharles 104
+JeffersonCity Rolla 63
+JeffersonCity Columbia 32
 Joplin Springfield 74
 Springfield Lebanon 54
 Lebanon Rolla 58
 Rolla JeffersonCity 63
 Rolla StLouis 106
-StLouis StCharles 24
-StCharles Troy 35
-Troy Hannibal 63
-Hannibal Moberly 70
+StCharles StLouis 24
+Troy StCharles 35
+Hannibal Troy 63
+Moberly Hannibal 70
